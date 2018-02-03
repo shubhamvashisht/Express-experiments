@@ -1,0 +1,26 @@
+html
+ body
+  <table style="width:100%; ">
+<tr>
+<th style="text-align:right; font-size:2000%; ">56</th>
+<th>
+   <div id="d02">
+     <table >
+       <tr><th style="text-align:left; font-size:200%; ">th</th></tr>
+       <tr><th style="text-align:left; font-size:200%; ">FLOOR</th></tr>
+     </table><th></div>
+</th></tr>
+</table>
+  div
+   table
+    each val in data
+     tr
+      td= val.num
+      td= val.number
+      td= val.name
+      td
+       form(method='post',action='/cms/edit')
+        input(type='text',name='num',value=val.num,size='1' ,readonly)
+        input(type='text',name='number',placeholder="Edit number",size='8')
+        input(type='text',name='name',placeholder="Edit name",size='8')
+        input(type='submit',value='submit')

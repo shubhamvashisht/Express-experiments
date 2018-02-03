@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:darkblue;border:5px 
+  solid black;
+}
+
+a {
+  color: #00B7FF;
+}
+div#d01{
+align : left;  color:powderblue; border:2px solid black;
+background-color : darkblue ; font-family:verdana;
+}
+div#d02{
+background-color : darkblue ; color:white;
+text-align:left; font-size:400%; font-family:verdana;
+}
