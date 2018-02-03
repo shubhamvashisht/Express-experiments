@@ -19,7 +19,7 @@ html
       td= val.number
       td= val.name
       td
-       form(method='post',action='/cms/edit')
+       form(method='post',action='node/cms/edit')
         input(type='text',name='num',value=val.num,size='1' ,readonly)
         input(type='text',name='number',placeholder="Edit number",size='8')
         input(type='text',name='name',placeholder="Edit name",size='8')
